@@ -7,6 +7,7 @@ function request(url, data) {
   return read();
 }
 
-const response = request("https://google.com", "Hi");
+const response = request("https://google.com", "Hello Motherfucker");
 
 console.log(response);
+console.log(request("https://yahoo.com", "I am Abdul Ghani"));
